@@ -37,7 +37,7 @@ public class Enemy {
     public void update(Main mc, Player p) {
         x += speed;
         if (x <= 0) {
-            speed = 10;
+            speed = 8;
         } else if (x >= mc.getWidth() - 25) {
             speed = -8;
 
